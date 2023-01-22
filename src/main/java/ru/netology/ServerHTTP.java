@@ -114,10 +114,5 @@ public class ServerHTTP {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        ServerHTTP serverHTTP = new ServerHTTP();
-        serverHTTP.startServer(9999);
-    }
-
 
 }
